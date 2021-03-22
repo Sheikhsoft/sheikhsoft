@@ -1,0 +1,48 @@
+title = "Digital Transformation"
+url = "/services/digital-transformation"
+layout = "default"
+description = "Digital Transformation"
+is_hidden = 0
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/banner/digital-transformation.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Xfinity’s Digital Transformation Services</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col"><b>Enabling businesses to reinvent the future with cutting-edge digital solutions and rapid innovation</b></p>
+
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="Augmented Reality"
+                 icon="icon-tools-2" 
+                 pragraph="Enhancing your customer experience is the quickest way to build customer loyalty. We can help you utilize advanced technologies like Augmented Reality and ibeacons to build innovative as well as targeted user experiences for your customers." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-tools"
+                 title="Virtual Reality"                  
+                 pragraph="We work with the leaders across industries to build cutting-edge virtual reality solutions that enable cost-effective modes to woo customers. With our innovative virtual reality platforms, we empower companies with the capability to unlock unique opportunities that scale business growth and efficiency." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="Mixed Reality"                  
+                 pragraph="We’ve moved to an age where physical and digital objects co-exist and interact in real-time. Mixed reality poses a huge opportunity to solve your business problems by seeing and understanding what will happen in the real business context. Fingent’s services help forward-looking businesses to take advantage of the niche technology." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-lightbulb"
+                 title="Robotic Process Automation"                  
+                 pragraph="At Fingent we utilize the advancements of Robotic Process Automation (RPA), to generate cost-effective platforms that enable quality services and unique customer services. Empowering companies with intelligent automation, we help them focus on value-added activities that enhance business quality and expand scalability." 
+                 %}
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 

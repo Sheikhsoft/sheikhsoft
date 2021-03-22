@@ -1,0 +1,48 @@
+title = "Enterprise Software Developers"
+url = "/services/enterprise-software-developers"
+layout = "default"
+description = "Enterprise Software Developers"
+is_hidden = 0
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/banner/enterprise-software-development-banner.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Xfinity’s Enterprise Software Development Services</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col"><b>Technology Solutions That Inspire</b></p>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col">We deliver next generation enterprise applications on the web, mobile and desktop, to streamline business processes and enhance customer experience.</p>
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="Web Application Development"
+                 icon="icon-desktop" 
+                 pragraph="Custom, pre-packaged, and hosted applications that support all leading operating systems and cloud platforms. Our technical team collaborates with you to understand your bottlenecks, identifies the right technologies to employ, and delivers solutions on time and within budget." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-mobile"
+                 title="Mobile Application Development"                  
+                 pragraph="Extend the capabilities of your existing system to mobile or create your mobile applications across multiple platforms through our technically adept team. Experience improved customer engagement, performance, and workforce productivity through our mobile apps." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="Business Technology Consulting"                  
+                 pragraph="Leverage our in-depth industry and technology expertise to reimagine your existing business processes by embracing emerging technologies. We help enterprises adopt digital transformation practices to tackle challenges and keep up with the changing market conditions." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-lightbulb"
+                 title="Business Process Reengineering"                  
+                 pragraph="Apply our strategic analysts’ recommendations and designs to update your business processes as per international best practices. Our advanced migration processes help you re-platform legacy software solutions to modern, supportable, and better performing environments." 
+                 %}
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 

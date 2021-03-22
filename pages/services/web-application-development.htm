@@ -1,0 +1,49 @@
+title = "Web Application Development"
+url = "/services/web-application-development"
+layout = "default"
+description = "Web Application Development"
+is_hidden = 0
+==
+{##}
+
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/banner/web-application-development-banner.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Custom Web Application Development Services</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col"><b>Secure, scalable, and intuitive web applications</b></p>
+                    
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="Latest Technologies"
+                 icon="icon-tools-2" 
+                 pragraph="We empower our clients with adaptive web applications built using PostgreSQL, Python, MongoDB, Angular, React, Node.js to simplify complex business workflows." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-tools"
+                 title="Efficient Methodologies"                  
+                 pragraph="We strive for efficiency in custom web applications by subjecting them to accepted design standards and testing. The agile practices followed by us ensure that the projects are delivered within the stipulated time and budget." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="Value-Adds"                  
+                 pragraph="Customized web applications fosters growth in valuation and intellectual property in the long run. Businesses can better streamline their daily operations and processes to fulfill key challenges and achieve targeted goals." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-lightbulb"
+                 title="Expertise"                  
+                 pragraph="We have carved out a niche in web application development, alongside valued consulting and analysis solutions, to serve growing businesses and industry leaders including Sony, Johnson & Johnson, and NEC." 
+                 %}
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 

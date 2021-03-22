@@ -1,0 +1,48 @@
+title = "Custom Software Development"
+url = "/services/custom-software-development"
+layout = "default"
+description = "Custom Software Development"
+is_hidden = 0
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/bg/bg2.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Xfinity’s Custom Software Development Services</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col"><b>Get unique service packages to address your specific needs!</b></p>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col">We’ve designed, developed, and implemented custom software solutions for hundreds of customers across the globe.</p>
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="Enterprise Applications"
+                 icon="icon-tools-2" 
+                 pragraph="Dynamic and innovative enterprise applications to optimize your critical business processes and functions. Custom enterprise applications for inventory and work order management, accounting, HR, ERP, CRM, e-commerce and more" 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-tools"
+                 title="Advanced Web Applications"                  
+                 pragraph="Advanced web applications developed with the most innovative technologies including AI, ML, IoT, AR, and VR. We design, prototype, develop, implement, and support your enterprise applications." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="New Product Development"                  
+                 pragraph="We help businesses through the entire lifecycle of new product development, right from idea to prototype to release. We create innovative, next-generation software products at unbeatable values." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-lightbulb"
+                 title="Cross-Platform Deployment"                  
+                 pragraph="We conceptualize, develop, and deploy your applications across multiple platforms- web, desktop, mobile, or cloud- with minimal hassle. We make your application available for almost all platforms and devices." 
+                 %}
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 

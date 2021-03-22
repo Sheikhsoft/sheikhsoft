@@ -1,0 +1,190 @@
+title = "Career"
+url = "/career"
+layout = "default"
+is_hidden = 0
+description = "Career"
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/bg/bg9.jpg" %}
+
+<section class="bg-light">
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <!-- start form section -->
+                    <div class="col-md-11 col-lg-9">
+
+                        <div class="border bg-white xs-padding-25px-all padding-50px-all rounded">
+
+                            <div class="text-center xs-margin-25px-bottom margin-35px-bottom">
+                                <h2 class="font-weight-600 margin-15px-bottom">Apply for your dream job</h2>
+                                <p class="mb-0">Explore opportunities that await you at Xfinity Technology Ltd. </p>
+                            </div>
+
+                            <form class="quform" action="quform/apply-job.php" method="post" enctype="multipart/form-data" onclick="">
+                                <div class="quform-elements">
+
+                                    <div class="row">
+
+                                        <!-- Begin Select element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group mb-4">
+                                                <label for="applyfor">Apply For <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <select id="applyfor" name="applyfor">
+                                                        <option value="">-- Apply For --</option>
+                                                        <option value="Office Executive">Office Executive</option>
+                                                        <option value="Mutual Fund Executive">Mutual Fund Executive</option>
+                                                        <option value="Financial Investment">Financial Investment</option>
+                                                        <option value="Others">Others</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Select element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group mb-4">
+                                                <label for="name">First Name <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <input id="name" type="text" name="name" placeholder="First Name">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group mb-4">
+                                                <label for="last_name">Last Name <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <input id="last_name" type="text" name="last_name" placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group mb-4">
+                                                <label for="email">Email Address <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <input id="email" type="text" name="email" placeholder="name@example.com">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group mb-4">
+                                                <label for="linkedin">URL</label>
+                                                <div class="quform-input">
+                                                    <input id="linkedin" type="text" name="linkedin" placeholder="Linkedin">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Select element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group mb-4">
+
+                                                <!-- Begin Upload element -->
+                                                <div class="quform-input">
+
+                                                    <label for="resume">Resume/CV <span class="quform-required">*</span></label>
+
+                                                    <div class="custom-file">
+                                                        <input class="custom-file-input" type="file" id="resume" name="resume">
+                                                        <label class="custom-file-label" data-browse="Browse">Choose file</label>
+                                                    </div>
+
+                                                    <p class="quform-description">All files allowed. Maximum size 10MB.</p>
+
+                                                </div>
+                                                <!-- End Upload element -->
+
+                                            </div>
+
+                                        </div>
+                                        <!-- End Select element -->
+
+                                        <!-- Begin Select element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group mb-4">
+
+                                                <div class="quform-input">
+                                                    <label for="coverletter">Cover Letter</label>
+
+                                                    <div class="custom-file">
+                                                        <input class="custom-file-input" type="file" id="coverletter" name="coverletter">
+                                                        <label class="custom-file-label" data-browse="Browse">Choose file</label>
+                                                    </div>
+
+                                                    <p class="quform-description">All files allowed. Maximum size 10MB.</p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Select element -->
+
+                                        <!-- Begin Textarea element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group mb-4">
+                                                <label for="message">In a Few Words <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <textarea id="message" name="message" rows="4" placeholder="How'd you hear about Crizal?"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Textarea element -->
+
+                                        <!-- Begin Captcha element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element mb-4">
+                                                <label for="type_the_word">Type the word <span class="quform-required">*</span></label>
+                                                <div class="form-group">
+                                                    <div class="quform-input">
+                                                        <input id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="quform-captcha">
+                                                        <div class="quform-captcha-inner">
+                                                            <img src="quform/images/captcha/courier-new-light.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Captcha element -->
+
+                                        <!-- Begin Submit button -->
+                                        <div class="col-md-12">
+                                            <div class="quform-submit-inner text-center">
+                                                <button class="butn btn-block" type="submit"><span>Apply Now</span></button>
+                                            </div>
+                                            <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+                                        </div>
+                                        <!-- End Submit button -->
+
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                    <!-- end form section -->
+
+                </div>
+            </div>
+        </section>

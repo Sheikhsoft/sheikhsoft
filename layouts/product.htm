@@ -1,0 +1,80 @@
+description = "Product layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SheikhSoft Inc- {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Sk Shamimul Islam">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="generator" content="SheikhSoft Inc.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+
+      <link rel="apple-touch-icon" sizes="180x180" href="{{'assets/img/logos/apple-touch-icon.png'|theme}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{'assets/img/logos/favicon-32x32.png'|theme}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{'assets/img/logos/favicon-16x16.png'|theme}}">
+<link rel="manifest" href="{{'assets/img/logos/site.webmanifest'|theme}}">
+       <link rel="stylesheet" href="{{ [
+            'assets/css/plugins.css',
+            'assets/css/switcher.css',
+            'assets/search/search.css',
+            'assets/quform/css/base.css',
+            'assets/css/styles.css',
+        ]|theme }}" rel="stylesheet">
+        {% styles %}
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="2c206447-4a1a-430f-95d4-91f0a91f3c61";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    </head>
+    <body>
+
+    <!-- start main-wrapper section -->
+    <div class="main-wrapper">
+
+    
+     <!-- start header section -->
+     <header class="fixedHeader">
+         {% partial 'site/header' %} 
+    </header>
+        <!-- end header section -->
+    
+   
+    {% page %}
+    
+
+
+         <!-- start footer section -->
+        <footer class="bg-img background-size-contain" data-overlay-dark="1" data-background="{{'assets/img/bg/dotted-map.png'|theme}}">
+            {% partial 'site/footer' %} 
+        </footer>
+        <!-- end footer section -->
+
+        </div>
+     <!-- end main-wrapper section -->
+
+         <!-- start scroll to top -->
+    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+    <!-- end scroll to top -->
+
+<!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="{{'assets/js/core.min.js'|theme}}"></script>
+
+    <!-- serch -->
+    <script src="{{'assets/search/search.js'|theme}}"></script>
+
+    {% scripts %}
+
+    <!-- custom scripts -->
+    <script src="{{'assets/js/main.js'|theme}}"></script>
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+
+  
+
+    <!-- all js include end -->
+        {% framework extras %}
+        
+
+    </body>
+</html>

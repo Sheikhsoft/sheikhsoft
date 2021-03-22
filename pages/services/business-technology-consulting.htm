@@ -1,0 +1,44 @@
+title = "Business Technology Consulting"
+url = "/services/business-technology-consulting"
+layout = "default"
+description = "Business Technology Consulting"
+is_hidden = 0
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/banner/business-technology-consulting-1.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Xfinity’s Business Technology Consulting Solutions</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col"><b>Technology and strategy advice from experienced business technology consultants</b></p>
+                    
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="Mechanical Point Solutions"
+                 icon="icon-tools-2" 
+                 pragraph="Purchasing multiple point solutions on a need-by-need basis can take a toll on your budgets. This challenge also involves handling incremental license costs and payments for other business software. We offer flexible and efficient mechanical point solutions, and also provide Automated Verification and Remote Diagnostics services." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-tools"
+                 title="IT Strategy Consulting"                  
+                 pragraph="We help you identify and validate new expansion opportunities for your business. By analyzing your current state of technology and desired business outcomes, we help you design your technology adoption roadmap with clear milestones. This accelerates your technology adoption and improves your application development efficiency." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="Infrastructure Migration"                  
+                 pragraph="xfinity’s infrastructure migration service is designed to help you plan, execute, and manage your cloud or on-premise strategy. We offer end-to-end migration services including workloads, integrations, network, and infrastructure that are strategically aligned with your business requirements and foster product and process innovation." 
+                 %}
+
+                 
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 

@@ -1,0 +1,501 @@
+;;
+title = "Homepage"
+url = "/"
+layout = "default"
+description = "Homepage"
+meta_title = "Xfinity Technology Ltd."
+is_hidden = 0
+==
+{##}
+{% put styles %}
+        <link rel="stylesheet" href="{{ [
+            'assets/css/rev_slider/settings.css',
+            'assets/css/rev_slider/layers.css',
+            'assets/css/rev_slider/navigation.css',  
+            'assets/css/rev_slider/typewriter.css' ,         
+        ]|theme }}" rel="stylesheet">
+{% endput %}
+
+<!-- revolution slider js files start -->
+  
+{% put scripts %}
+ 
+  <script src="{{'assets/jarallax/dist/jarallax.js'|theme}}"></script>
+  <script src="{{'assets/jarallax/dist/jarallax-video.js'|theme}}"></script>
+  <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'),{
+        videoLoop:true,
+        });
+
+    </script>
+{% endput %}
+ <section class="jarallax bg-img full-screen cover-background line-banner" data-overlay-dark="6" data-background="{{'assets/video/vide-bg-img.jpg'|theme}}" style="background-image: url({{'assets/video/vide-bg-img.jpg'|theme}}); min-height: 576px;" data-video-src="https://youtu.be/PARtxzn8tKQ">
+
+            <!-- start banner text -->
+            <div class="header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                            <p class="font-size18 xs-font-size16 text-white letter-spacing-1 margin-15px-bottom">The agency will support to develop innovation.</p>
+
+                            <!-- start banner headline text -->
+                            <h1 class="cd-headline loading-bar">
+                                We conglutinate <br>
+                                <span class="cd-words-wrapper is-loading">
+                                        <b class="is-visible">Design</b>
+                                        <b class="is-hidden">Thinking</b>
+                                        <b class="is-hidden">Technical</b>
+                                    </span>
+                            </h1>
+                            <!-- end banner headline text -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end banner text -->
+
+        </section>   
+
+<!-- start project section -->
+        <section>
+
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Our Latest Product</h3>
+                    <p class="width-55 sm-width-75 xs-width-95">Business consectetur adipisicing elit eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation consequat.</p>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- Start links -->
+                    <div class="filtering col-sm-12 text-center">
+                        <span data-filter='*' class="active">All</span>
+                        <span data-filter='.flutter'>Flutter App</span>
+                        <span data-filter='.mobile'>Mobile App</span>
+                        <span data-filter='.web'>Web App</span>
+                    </div>
+                    <!-- End links -->
+
+                </div>
+
+                <!-- start portfolio gallery -->
+                <div class="gallery text-center form-row">
+
+                    <div class="col-lg-4 col-md-6 margin-30px-bottom items flutter">
+                        <div class="project-grid-style2">
+                            <div class="project-details">
+                                <img src="{{'assets/img/banner/c-enom-banner.png'|theme}}" alt="">
+                                <div class="portfolio-icon">
+                                   <a href="{{'products/complete-ecommerce-solution'|page}}" target="_blank"><i class="fas fa-search-plus"></i></a>
+                                </div>
+                                
+                                
+                                <div class="portfolio-post-border"></div>
+                            </div>
+                            <div class="portfolio-title">
+                                
+                                <h4>Complete Grocery Shopping with Delivery Boy</h4>
+                                <p>This app comes with a complete package of service that includes FLUTTER USER APP, FLUTTER DELIVERY APP, WEB APP, CMS DASHBOARD.</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+
+                </div>
+                <!-- end portfolio gallery -->
+
+            </div>
+
+        </section>
+        <!-- end project section -->       
+       
+
+
+
+<!-- start extra section -->
+<section class="bg-light-gray">
+<div class="section-heading">
+                    <h3 class="title-style2">Technology Is Transforming Every Industry Sector</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col">Are you embracing the power of digital transformation
+and beyond to stay competitive?</p>
+                </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xl-10">
+                <!--Vertical Tab-->
+                <div class="verticaltab tab-style8">
+                    <ul class="resp-tabs-list hor_1 home-tab-content">
+                        <li id="tab1">
+
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Financial Services</h4>
+                                    
+                                </div>
+                            </div>
+
+                        </li>
+                        <li id="tab2">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Real estate</h4>
+                                   
+                                </div>
+                            </div>
+
+                        </li>
+                        <li id="tab3">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Education</h4>
+                                   
+                                </div>
+                            </div>
+
+                        </li>
+                        <li id="tab4">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Logistics</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab5">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Nonprofits</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab6">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Manufacturing</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab7">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Retail</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab8">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Healthcare</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab9">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Utilities</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li id="tab10">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Travel</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab11">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Sports</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li id="tab12">
+                            <div class="media align-items-center align-items-lg-start">
+                                <div class="width-50px xs-width-35px">
+                                    <i class="ti-layers font-size36"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="no-margin-bottom">Media</h4>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="resp-tabs-container hor_1">
+                        <div id="first">
+                            <div class="bg-white box-shadow-primary">
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                        <img src="{{'assets/img/home/Financial-Services.jpg'|theme}}" alt="">
+                                             <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Financial services</h5>
+                                                    <p>We deliver FinTech innovations that drive smarter financial management to support our customer needs</p>
+                                             </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="second">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Real-Estate-2.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Real estate</h5>
+                                                    <p>We empower realtors with advanced PropTech solutions to streamline and simplify real estate management</p>
+                                             </div>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="third">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Education-4.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Education</h5>
+                                                    <p>We help education organizations develop custom technology solutions focused on collaboration, data, and personalization</p>
+                                             </div>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="forth">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Logistics-3.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Logistics</h5>
+                                                    <p>Enabling logistics players leverage advanced tools and technologies to tackle industry challenges and improve performance</p>
+                                             </div>
+                                        </div>
+
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="fifth">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Nonprofits.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Nonprofits</h5>
+                                                    <p>We help nonprofit organizations streamline data collection, stay compliant, and maximize engagement</p>
+                                             </div>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="six">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Manufacturing.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Manufacturing</h5>
+                                                    <p>Enabling manufacturers to have greater control and make better decisions throughout production using innovative technologies</p>
+                                             </div>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="seven">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Retail-3.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Retail</h5>
+                                                    <p>Strengthen your customer relationships with engaging brand experiences powered by innovative technologies</p>
+                                             </div>
+                                        </div>
+                                       
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="eight">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Healthcare.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Healthcare</h5>
+                                                    <p>We enable a connected healthcare ecosystem by developing advanced, end-to-end digital solutions.</p>
+                                             </div>
+                                        </div>
+                                       
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="nine">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Utilities-3.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Utilities</h5>
+                                                    <p>Enabling utilities to modernize legacy systems for creating powerful, consumer-friendly essential services</p>
+                                             </div>
+                                        </div>
+                                       
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="ten">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Travel-4.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Travel</h5>
+                                                    <p>Empowering businesses to develop custom solutions that allow travelers to experience the world</p>
+                                             </div>
+                                        </div>
+                                       
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="eleven">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Sports-4.jpg'|theme}}" alt="">
+                                                <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Sports</h5>
+                                                    <p>Custom software and analytics solutions for sports organizations to boost athletic performance and create engaging fan experiences</p>
+                                             </div>
+                                        </div>
+                                        
+                                    </div>
+                            </div>                        
+                        </div>
+                        <div id="twelve">
+                            <div class="bg-white box-shadow-primary padding-30px-all xs-padding-20px-all">
+                                    <div class="row">
+                                        <div class="col-lg-12 sm-margin-20px-bottom sm-text-center">
+                                                <img src="{{'assets/img/home/Media-3.jpg'|theme}}" alt="">
+                                                 <div class="padding-30px-left md-padding-20px-left sm-no-padding-left">
+                                                    <h5>Media</h5>
+                                                    <p>We help media organizations gain more attention and reach new audiences through innovative technologies</p>
+                                             </div>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end extra section -->
+
+{% partial 'site/testmonial' %} 
+<!-- start service section -->
+<section class="bg-light-gray">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+                <div class="services-block-three h-100">
+                    <a href="#!" class="h-100">
+                      
+                        <h4>Great Partners Make Us Better</h4>
+                        <p>We are a trusted technology partner for many successful global enterprises and businesses. We have helped bring ideas to life by building sustainable business practices across industries.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+                <div class="services-block-three h-100">
+                    <a href="#!" class="h-100">
+                        
+                    <div class="row">
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/nasir-group.jpg'|theme}}" alt=""></div>
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/bestway.jpg'|theme}}" alt=""></div>
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/union.jpg'|theme}}" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/prime-asset.jpg'|theme}}" alt=""></div>
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/gov.jpg'|theme}}" alt=""></div>
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/rupayan.jpg'|theme}}" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/jumuna.jpg'|theme}}" alt=""></div>
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/city.jpg'|theme}}" alt=""></div>
+                        <div class="col-md-4 bg-light-gray border margin-15px-bottom padding-10px-tb text-center"><img src="{{'assets/img/patner/sheikhsoft.jpg'|theme}}" alt=""></div>
+                    </div>
+                            
+                        
+                    </a>
+                </div>
+            </div>
+            
+            <!-- end -->
+        </div>
+
+    </div>
+</section>
+<!-- end service section -->
+                    
+                
+                
+                
+                

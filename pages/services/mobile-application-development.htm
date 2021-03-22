@@ -1,0 +1,48 @@
+title = "Mobile Application Development"
+url = "/services/mobile-application-development"
+layout = "default"
+description = "Mobile Application Development"
+is_hidden = 0
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/banner/web-application-development-banner.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Xfinity’s Mobile Application Development Services</h3>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col"><b>Custom, pre-packaged and hosted Android, iOS, and Windows mobile apps!</b></p>
+                    <p class="width-55 sm-width-75 xs-width-95 center-col">We employ platform-specific SDKs for Android and iOS, cross-platform approaches relying on HTML5, and conversion tools, to develop cost-effective enterprise mobile solutions.</p>
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="iOS App Development"
+                 icon="icon-tools-2" 
+                 pragraph="Our iOS applications help you take informed decisions and give you the flexibility to perform critical tasks with ease. Our services extend across various domains and skill sets to help you innovate business processes across departments." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-tools"
+                 title="Android App Development"                  
+                 pragraph="Our expert team can help deliver customized, secure, and robust native Android applications including e-commerce, augmented reality and integration applications that help you meet your business objectives." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="Hybrid App Development"                  
+                 pragraph="We help you get the best of Android and iOS worlds through hybrid apps. Our rapid deployment approach ensures you deliver solutions within time to market to leverage opportunities before competition." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-lightbulb"
+                 title="Cross-Platform App Development"                  
+                 pragraph="We have expertise in building mobile solutions that meet your multiplatform requirements, ensuring a uniform experience across numerous devices and platforms. Whether a smartphone, tablet or laptop running on iOS, Android, or Windows, our developers can build the right solutions." 
+                 %}
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 

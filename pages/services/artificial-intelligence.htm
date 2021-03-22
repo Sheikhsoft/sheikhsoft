@@ -1,0 +1,48 @@
+title = "Artificial Intelligence"
+url = "/services/artificial-intelligence"
+layout = "default"
+description = "Artificial Intelligence"
+is_hidden = 0
+==
+{##}
+{% partial 'site/page-title' title=this.page.description bgimg="assets/img/banner/artificial-intelligence-1.jpg" %}
+
+<section class="lg bg-transparent bg-img cover-background" data-overlay-dark="0" data-background="{{'assets/img/bg/shape-01.png'|theme}}" style="background-image: url({{'assets/img/bg/shape-01.png'|theme}});">
+            <div class="container">
+                <div class="section-heading title-style8">
+                    <h3>Xfinity’s Artificial Intelligence Services</h3>
+                    
+                    <p class="width-55 sm-width-75 xs-width-95 center-col">We help you leverage AI to drive the smart reinvention of your business workflows, processes, and technology</p>
+                </div>
+                <div class="row">
+
+                {% partial 'site/feature-box'
+                 title="Customized AI Applications"
+                 icon="icon-tools-2" 
+                 pragraph="We develop custom AI-powered apps that can help derive transformative insights to grow your business. We have expertise in a wide range of AI platforms such as Natural Language Processing, Computer Vision, Speech Recognition, and so on." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-tools"
+                 title="Task Automation"                  
+                 pragraph="We empower enterprises with robotic and business process automation that yields a greater margin of profit with reduced manpower and operating cost. Automating monotonous tasks leads to enhanced accuracy and efficiency in business operations." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-gears"
+                 title="Predictive Analysis"                  
+                 pragraph="Self-learning AI identifies intelligent insights from customer data and statistically generated algorithms to predict future outcomes. We help organizations make use of such insights for solving business challenges and discovering new growth opportunities." 
+                 %}
+
+                 {% partial 'site/feature-box'
+                 icon="icon-lightbulb"
+                 title="Machine Learning"                  
+                 pragraph="Access state-of-the-art technology solutions to harness the growing capabilities of machine learning. Our team of experts can help you build and deploy innovative machine learning solutions to drive automation throughout your organization and achieve business objectives faster." 
+                 %}
+
+                </div>
+            </div>
+        </section>
+
+        {% partial 'site/testmonial' %} 
+        {% partial 'site/contact' %} 
