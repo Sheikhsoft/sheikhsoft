@@ -9,7 +9,7 @@
 (function ($) {
     "use strict";
     var $window = $(window);
-    var $baseurl = 'http://localhost/xfinity/';
+    var $baseurl = 'https://www.sheikhsoft.com/';
     $('#preloader').fadeOut('normall', function () {
         $(this).remove();
     });
